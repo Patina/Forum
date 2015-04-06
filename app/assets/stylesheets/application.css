@@ -39,11 +39,19 @@ body {
 #logo {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.65rem;
+	padding-left: 262px
 }
 
 #button {
 	float: right;
+	clear: both;
+	background-color: 
+	padding: .5em .5m; 
+	border-radius: .2em;
+	color: white:
+	text-decoration: none;
+	font-weight: 100;
 }
 #posts {
 	background-color: white;
