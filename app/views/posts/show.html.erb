@@ -1,6 +1,16 @@
-<h1><%= @post.title %></h1>
+<div id="postscontent">
+
+<h1 id="show"><%= @post.title %></h1>
 <p><%= @post.content %><p>
+
+<div class="commentshow">
+	<h2><%= @post.comments.count %></h2>
+	<% render @post.comments %>
+	<h3>Reply to thread<h3>
+	</div>
+<% render '/comments/form' %>
 
 	<%= link_to 'Edit', edit_post_path(@post) %>
 	<%= link_to 'Delete', post_path(@post), method: :delete, data: {confirm: "Are you sure?" } %>
 	<%= link_to 'Home', root_path %>
+</div>

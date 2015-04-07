@@ -46,7 +46,7 @@ body {
 #button {
 	float: right;
 	clear: both;
-	background-color: 
+	background-color: blue; 
 	padding: .5em .5m; 
 	border-radius: .2em;
 	color: white:
@@ -62,6 +62,16 @@ body {
 	margin-top: 4em;
 	padding-top: 2em;
 	padding-bottom: 3em;
+}
+#postscontent{
+	background-color: white;
+	padding: 2em;
+	border-radius: .5em;
+	margin-top: 6em;
+}
+#show {
+	font-weight: 100;
+	font-size: 2em;
 }
 		
 
